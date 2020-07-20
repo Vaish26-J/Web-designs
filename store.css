@@ -1,0 +1,117 @@
+html{
+	scroll-behavior: smooth;
+}
+.top-container{
+	background: url(https://images.unsplash.com/photo-1529059867660-302e870b0438?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	padding:10% 
+}
+.top-container h1{
+	padding: 2% 1% 2% 1%;
+	border: 1px solid black;
+	color: #f7a752;
+	font-family: "Raleway";
+	font-weight: 500;
+}
+.top-container h1:hover{
+		background-color: #ffc894;
+		color: black;
+	}
+.object{
+	margin-left: 10%;
+}
+.object .btn{
+	margin:1%;
+	
+}
+.object h3{
+	font-family: "Raleway";
+	font-weight: 500;
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color:#f7a752;
+}	
+.object .btn-primary{
+	background-color:#7e9ebf ;
+	color: black;
+}
+.object .btn-success{
+	background-color: #9fcc87;
+	color: black;
+}
+.object .btn-info{
+	background-color:#8b7cbf; 
+	color: black;
+}
+
+.object .btn:hover{
+	box-shadow: 2px 3px 4px black;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.equalize img{
+	width:100%;
+	height:100%;
+	max-height: 260px;
+	max-width: 400px;
+	box-shadow: 1px 2px 5px black;
+	border-radius: 5%;
+	margin: 2%;
+}
+.equalize img:hover{
+	
+	box-shadow: 2px 4px 10px black;
+}
+.equalize p{
+	text-align: center;
+	font-family: "Raleway";
+	padding-top: 1%;
+	font-size: 20px;
+}
+h2{
+	margin-left: 3%;
+	font-family: "Raleway";
+	color:#f7a752;
+}
+.object h2{
+	margin-left: 1%;
+}
+h3{
+	font-family: "Raleway";
+	color:#f7a752;
+}
+.equalize p:hover{
+	color:#f7a752;
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    margin-bottom: 0px;
+   	border-right: 8px solid #f7a752;
+   	border-left:  8px solid #f7a752;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #f7a752;
+    font-size: 18px;
+    font-family: "Raleway";
+}
+ .navbar-default .navbar-nav>li>a:hover {
+    color: #c46806;
+    background-color: transparent;
+    text-shadow: 1px 1px 8px #f7a752;
+}
+.logo{
+	padding-right: 5%;
+	max-width:60px;
+	margin:auto;
+}

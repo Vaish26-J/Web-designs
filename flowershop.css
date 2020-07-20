@@ -1,0 +1,166 @@
+html{
+	scroll-behavior: smooth;
+}
+.top-container{
+	background: url(https://image.freepik.com/free-photo/top-view-circular-floral-frame-with-yellow-background_23-2148442333.jpg);
+	background-position: top;
+	background-size: cover;
+	text-align: center;
+	padding:8% 
+}
+.top-container h1{
+	font-family: "Miltonian";
+	font-size: 5em;
+}
+.top-container p{
+	font-family: "Miltonian Tattoo";
+	font-size: 2em;
+	padding-left: 30%;
+}
+.top-container h3{
+	padding-top: 3%;
+	font-family: "Raleway";
+	font-weight: 500;
+	font-size: 40px;
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    margin-bottom: 0px;
+   	border-right: 8px solid #f7a752;
+   	border-left:  8px solid #f7a752;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #f7a752;
+    font-size: 18px;
+    font-family: "Raleway";
+}
+ .navbar-default .navbar-nav>li>a:hover {
+    color: #c46806;
+    background-color: transparent;
+    text-shadow: 1px 1px 8px #f7a752;
+}
+.logo{
+	padding-right: 5%;
+	max-width:60px;
+	margin:auto;
+}
+.choose{
+	text-align: center;
+	padding: 1.5%;
+	font-size: 30px;
+	font-family: "Raleway";
+	font-weight: 500;
+	color: #f7a752;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.icons{
+	font-family: "Raleway";
+	text-align: justify;
+}
+.icons i{
+	font-size: 50px;
+	padding-left:45%;
+}
+h3{
+	text-align: center;
+}
+#borders{
+	border-left: 1px solid  grey;
+	border-right: 1px solid grey;
+}
+.bottom-container{
+	background:#f7a752;
+	border-top: 1px solid black;
+	text-align: center;
+	font-family: "Raleway";
+	font-size: 20px;
+}
+.social a{
+	font-size: 55px;
+	color: black;
+}
+.social a:hover{
+	text-shadow: 1px 1px 8px white;
+}
+.middle-container h1{
+	text-align: center;
+	font-family: "Raleway";
+	font-weight: 300;
+	color:#f7a752;
+	padding-bottom:3%; 
+	padding-top: 3%;
+	border-top: 1px solid lightgrey;
+	text-decoration: underline;
+	text-decoration-color:#fab778; 
+}
+.equalize img{
+	width:100%;
+	height:100%;
+	max-height: 260px;
+	max-width: 400px;
+	box-shadow: 1px 2px 5px black;
+	border-radius: 15%;
+}
+.equalize img:hover{
+	
+	box-shadow: 2px 4px 10px black;
+}
+.equalize p{
+	text-align: center;
+	font-family: "Raleway";
+	padding-top: 1%;
+	font-size: 20px;
+}
+.buttons {
+	margin: 5% 5% 1% 45.5%;
+	color: white;
+	background-color: #f7a752;
+
+}
+.buttons:hover{
+	background-color: #f7a752;
+	box-shadow: 5px 5px 10px #f7a752;
+	background-color: black;
+	color:white;
+
+}
+.object{
+	margin-left: 5%;
+}
+.object .btn{
+	padding:10% 5% 0% 5%;
+	margin:3%;
+	max-width: 200px;
+}	
+.object .btn-primary{
+	background-image: url(https://indianflowercakengifts.com/product-images/1494069301-25-White-n-Pink-Roses-Midnight-Online-Delivery.jpg);
+	background-size: cover;
+	background-position: center;
+	color: black;
+}
+.object .btn-success{
+	background-image: url(https://img.grouponcdn.com/deal/26RVsRBsFwVQGDRHXC6TFLx5Xhuo/26-1000x600/v1/c700x420.jpg);
+	background-size: cover;
+	background-position: center;
+	color: black;
+}
+.object .btn-info{
+	background-image: url(https://s3-us-west-2.amazonaws.com/shaadiwishnewbucket/ad642d14-ea6c-84e2-c051-70299383b84e.jpg);
+	background-size: cover;
+	background-position: center;
+	color: black;
+}
+.object .btn-default{
+	background-image: url(https://f0.pngfuel.com/png/785/94/gardening-tools-clip-art-png-clip-art.png);
+	background-size: cover;
+	background-position: center;
+	color: black;
+}
+.object .btn:hover{
+	box-shadow: 2px 3px 4px black;
+}
